@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Purple container box matching the preview image */
+#buttons {
+    background-color: #8e44ad;
+    padding: 40px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+}
+
+/* Styling for the sound effect buttons */
+.btn {
+    background-color: #4a148c;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    min-width: 100px;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #6a1b9a;
+}
+
+.stop {
+    background-color: #311b92;
+}
+
+.stop:hover {
+    background-color: #4527a0;
+}
